@@ -20,4 +20,22 @@ else{
 printf("%d is not prime",n);
 }
 }
-
+#include<stdio.h>
+void main ()
+{
+int n,rem,rev=0,temp;
+print("Enter n value");
+scanf("%d",&n);
+temp=n;
+while(n>0){
+rem=n%10;
+rev=rev*10+rem;
+n=n/10
+}
+if(temp==rev){
+printf("%d is palindrome",n);
+}
+else{
+printf("%d is not palindrome",n);
+}
+}

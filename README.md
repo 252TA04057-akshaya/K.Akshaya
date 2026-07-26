@@ -39,3 +39,17 @@ else{
 printf("%d is not palindrome",n);
 }
 }
+#include<stdio.h>
+void main(){
+int i,a[5],max=a[0];
+printf("Enter array elements");
+for(i=0;i<=4;i++){
+scanf("%d",&a[i]);
+}
+for(i=0;i<=4;i++){
+if(a[i]>max){
+max=a[i];
+}
+}
+printf("%d",max);
+}
